@@ -51,3 +51,24 @@
 }
 /* /Portfolio Part */
 
+
+/* About Part */
+.about_container{
+    height: 350px;
+    background-color: var(--bool-about);
+
+    box-sizing: border-box;
+    border: 1px dashed;
+}
+/* /About Part */
+
+
+/* /Contact Part */
+.about_container{
+    height: 500px;
+    background-color: var(--bool-portfolio);
+
+    box-sizing: border-box;
+    border: 1px dashed;
+}
+/* /Contact Part */
