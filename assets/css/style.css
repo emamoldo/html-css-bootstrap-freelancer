@@ -23,6 +23,9 @@
 .header_container{
     height: 100px;
     background-color: var(--bool-header);
+    
+    box-sizing: border-box;
+    border: 1px dashed;
 }
 /* /Header */
 
@@ -31,5 +34,20 @@
 .start_container{
     height: 350px;
     background-color: var(--bool-start);
+
+    box-sizing: border-box;
+    border: 1px dashed;
 }
 /* /Start Part */
+
+
+/* Portfolio Part */
+.portfolio_container{
+    height: 350px;
+    background-color: var(--bool-portfolio);
+
+    box-sizing: border-box;
+    border: 1px dashed;
+}
+/* /Portfolio Part */
+
