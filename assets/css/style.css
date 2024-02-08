@@ -23,7 +23,7 @@
 .header_container{
     height: 100px;
     background-color: var(--bool-header);
-    
+
     box-sizing: border-box;
     border: 1px dashed;
 }
@@ -46,6 +46,11 @@
     height: 350px;
     background-color: var(--bool-portfolio);
 
+    box-sizing: border-box;
+    border: 1px dashed;
+}
+
+.col{
     box-sizing: border-box;
     border: 1px dashed;
 }
