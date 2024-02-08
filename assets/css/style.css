@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bool-header: #2c3f51;
+    --bool-header-text: #fffefe;
+    --bool-start: #1bbd9c;
+    --bool-start-text: #fffefe;
+    --bool-portfolio: #ffffff;
+    --bool-portfolio-text: #323332;
+    --bool-about: #1bbd9c;
+    --bool-about-text: #fffefe;
+    --bool-botton-text: #fffefe;
+    --bool-contact-title: #323332;
+    --bool-top-footer: #3b546c;
+    --bool-bottom-footer: #2c3f51;
+}
+
+/* Header */
+.header_container{
+    height: 100px;
+    background-color: var(--bool-header);
+}
+/* /Header */
+
+
+/* Start Part */
+.start_container{
+    height: 350px;
+    background-color: var(--bool-start);
+}
+/* /Start Part */
