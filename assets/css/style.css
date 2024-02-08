@@ -64,7 +64,7 @@
 
 
 /* /Contact Part */
-.about_container{
+.contact_container{
     height: 500px;
     background-color: var(--bool-portfolio);
 
@@ -72,3 +72,14 @@
     border: 1px dashed;
 }
 /* /Contact Part */
+
+
+/* Footer Part */
+.footer_container{
+    height: 250px;
+    background-image: linear-gradient(to bottom, #3b546c 0%, #3b546c 160px, #2c3f51 120px, #2c3f51 100%);
+
+    box-sizing: border-box;
+    border: 1px dashed;
+}
+/* /Footer Part */
