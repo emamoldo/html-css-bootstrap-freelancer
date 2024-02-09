@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 :root{
     --bool-header: #2c3f51;
     --bool-header-text: #fffefe;
@@ -20,18 +14,15 @@
 }
 
 /* Header */
-.header_container{
-    height: 100px;
+.header_bg{
     background-color: var(--bool-header);
-
-    box-sizing: border-box;
-    border: 1px dashed;
 }
+
 /* /Header */
 
 
 /* Start Part */
-.start_container{
+#start{
     height: 350px;
     background-color: var(--bool-start);
 
@@ -42,7 +33,7 @@
 
 
 /* Portfolio Part */
-.portfolio_container{
+#portfolio{
     height: 350px;
     background-color: var(--bool-portfolio);
 
@@ -58,7 +49,7 @@
 
 
 /* About Part */
-.about_container{
+#about{
     height: 350px;
     background-color: var(--bool-about);
 
@@ -69,7 +60,7 @@
 
 
 /* /Contact Part */
-.contact_container{
+#contact{
     height: 500px;
     background-color: var(--bool-portfolio);
 
@@ -80,7 +71,7 @@
 
 
 /* Footer Part */
-.footer_container{
+#footer{
     height: 250px;
     background-image: linear-gradient(to bottom, #3b546c 0%, #3b546c 160px, #2c3f51 120px, #2c3f51 100%);
 
