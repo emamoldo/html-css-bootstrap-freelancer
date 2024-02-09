@@ -101,11 +101,38 @@
 
 /* /Contact Part */
 #contact{
-    height: 500px;
+    height: 900px;
     background-color: var(--bool-portfolio);
+}
 
-    box-sizing: border-box;
-    border: 1px dashed;
+.contact_title{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 2rem;
+}
+
+#name, #email, #phone, #message{
+    border-bottom: 1px solid gray;
+    width: 900px;
+    gap: 0.5rem;
+}
+
+#message{
+    padding-bottom: 150px;
+}
+
+.btn{
+    margin-left: -850px;
+}
+
+.send{
+    border: none;
+    background-color: var(--bool-about);
+    border-radius: 10px;
+    color: var(--bool-about-text);
 }
 /* /Contact Part */
 
