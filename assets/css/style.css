@@ -29,9 +29,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-    box-sizing: border-box;
-    border: 1px dashed;
 }
 
 .start_img{
@@ -58,9 +55,6 @@
     justify-content: center;
     flex-direction: column;
     font-size: 25px;
-
-    box-sizing: border-box;
-    border: 1px dashed;
 }
 
 .portfolio_img{
@@ -80,11 +74,27 @@
 
 /* About Part */
 #about{
-    height: 350px;
+    height: 600px;
     background-color: var(--bool-about);
+}
 
-    box-sizing: border-box;
-    border: 1px dashed;
+.about_text{
+    padding: 4rem;
+    color: var(--bool-about-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 2rem;
+}
+
+.download{
+    border:;
+    border-color:;
+    border-radius: 10px;
+    color: var(--bool-about-text);
+    background-color: var(--bool-about);
 }
 /* /About Part */
 
