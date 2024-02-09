@@ -90,8 +90,6 @@
 }
 
 .download{
-    border:;
-    border-color:;
     border-radius: 10px;
     color: var(--bool-about-text);
     background-color: var(--bool-about);
@@ -139,10 +137,34 @@
 
 /* Footer Part */
 #footer{
-    height: 250px;
+    height: 450px;
     background-image: linear-gradient(to bottom, #3b546c 0%, #3b546c 160px, #2c3f51 120px, #2c3f51 100%);
+}
 
-    box-sizing: border-box;
-    border: 1px dashed;
+.footer_container{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    gap: 2rem;
 }
 /* /Footer Part */
+
+/* Media */
+@media screen and (min-width:576px){
+    #about{
+        height: 800px;
+    }
+
+    #contact{
+        width: 700px;
+    }
+    
+    #name, #email, #phone, #message{
+        border-bottom: 1px solid gray;
+        width: 400px;
+        gap: 0.5rem;
+    }
+
+}
