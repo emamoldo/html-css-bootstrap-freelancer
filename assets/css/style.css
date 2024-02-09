@@ -23,27 +23,57 @@
 
 /* Start Part */
 #start{
-    height: 350px;
+    padding: 3rem;
     background-color: var(--bool-start);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
     box-sizing: border-box;
     border: 1px dashed;
+}
+
+.start_img{
+    height: 200px
+}
+
+.start_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--bool-start-text);
+    font-size: 20px;
 }
 /* /Start Part */
 
 
 /* Portfolio Part */
 #portfolio{
-    height: 350px;
+    padding: 3rem;
     background-color: var(--bool-portfolio);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
 
     box-sizing: border-box;
     border: 1px dashed;
 }
 
-.col{
-    box-sizing: border-box;
-    border: 1px dashed;
+.portfolio_img{
+    height: 150px;
+    border-radius: 1rem;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
 }
 /* /Portfolio Part */
 
