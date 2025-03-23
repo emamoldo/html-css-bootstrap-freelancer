@@ -1,4 +1,4 @@
-:root{
+:root {
     --bool-header: #2c3f51;
     --bool-header-text: #fffefe;
     --bool-start: #1bbd9c;
@@ -14,7 +14,7 @@
 }
 
 /* Header */
-.header_bg{
+.header_bg {
     background-color: var(--bool-header);
 }
 
@@ -22,7 +22,7 @@
 
 
 /* Start Part */
-#start{
+#start {
     padding: 3rem;
     background-color: var(--bool-start);
     display: flex;
@@ -31,11 +31,11 @@
     flex-direction: column;
 }
 
-.start_img{
+.start_img {
     height: 200px
 }
 
-.start_text{
+.start_text {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,11 +43,12 @@
     color: var(--bool-start-text);
     font-size: 20px;
 }
+
 /* /Start Part */
 
 
 /* Portfolio Part */
-#portfolio{
+#portfolio {
     padding: 3rem;
     background-color: var(--bool-portfolio);
     display: flex;
@@ -57,29 +58,29 @@
     font-size: 25px;
 }
 
-.portfolio_img{
+.portfolio_img {
     height: 150px;
     border-radius: 1rem;
 }
 
-.star{
+.star {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     font-size: 20px;
 }
+
 /* /Portfolio Part */
 
 
 /* About Part */
-#about{
+#about {
     height: 600px;
     background-color: var(--bool-about);
 }
 
-.about_text{
-    padding: 4rem;
+.about_text {
     color: var(--bool-about-text);
     display: flex;
     align-items: center;
@@ -89,21 +90,22 @@
     gap: 2rem;
 }
 
-.download{
+.download {
     border-radius: 10px;
     color: var(--bool-about-text);
     background-color: var(--bool-about);
 }
+
 /* /About Part */
 
 
 /* /Contact Part */
-#contact{
-    height: 900px;
+#contact {
+    /* height: 900px; */
     background-color: var(--bool-portfolio);
 }
 
-.contact_title{
+.contact_title {
     padding: 4rem;
     display: flex;
     align-items: center;
@@ -112,56 +114,52 @@
     gap: 2rem;
 }
 
-#name, #email, #phone, #message{
+#name,
+#email,
+#phone,
+#message {
     border-bottom: 1px solid gray;
-    width: 900px;
+    width: 1200px;
     gap: 0.5rem;
 }
 
-#message{
+#message {
     padding-bottom: 150px;
 }
 
-.btn{
-    margin-left: -850px;
-}
-
-.send{
+.send {
     border: none;
     background-color: var(--bool-about);
     border-radius: 10px;
     color: var(--bool-about-text);
 }
+
 /* /Contact Part */
 
 
 /* Footer Part */
-#footer{
-    height: 450px;
-    background-image: linear-gradient(to bottom, #3b546c 0%, #3b546c 160px, #2c3f51 120px, #2c3f51 100%);
+#footer {
+    height: 400px;
+    background-image: linear-gradient(to bottom, #3b546c 0%, #3b546c 300px, #2c3f51 150px, #2c3f51 100%);
+    color: white;
 }
 
-.footer_container{
-    padding: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    gap: 2rem;
-}
 /* /Footer Part */
 
 /* Media */
-@media screen and (min-width:576px){
-    #about{
+@media screen and (min-width:576px) {
+    #about {
         height: 800px;
     }
 
-    #contact{
+    /* #contact {
         width: 700px;
-    }
-    
-    #name, #email, #phone, #message{
+    } */
+
+    #name,
+    #email,
+    #phone,
+    #message {
         border-bottom: 1px solid gray;
         width: 400px;
         gap: 0.5rem;
